@@ -10,11 +10,11 @@ import 'package:duka/features/auth_feature/enter_otp_view.dart' as _i7;
 import 'package:duka/features/auth_feature/forgot_password_view.dart' as _i6;
 import 'package:duka/features/auth_feature/login_view.dart' as _i4;
 import 'package:duka/features/auth_feature/new_password_view.dart' as _i8;
-import 'package:duka/features/dashboard_feature/delete_account_view.dart'
+import 'package:duka/features/profile_feature/delete_account_view.dart'
     as _i10;
-import 'package:duka/features/dashboard_feature/delivery_details_view.dart'
+import 'package:duka/features/deliveries_feature/delivery_details_view.dart'
     as _i9;
-import 'package:duka/features/dashboard_feature/landing_view.dart' as _i5;
+import 'package:duka/features/landing_feature/landing_view.dart' as _i5;
 import 'package:duka/features/onboarding_feature/onboarding_view.dart' as _i3;
 import 'package:duka/features/splash_feature/splash_view.dart' as _i2;
 import 'package:flutter/material.dart' as _i11;

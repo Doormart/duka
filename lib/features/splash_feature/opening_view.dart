@@ -1,5 +1,5 @@
 import 'package:duka/core/utilities/color_asset.dart';
-import 'package:duka/features/splash_feature/opening_view_model.dart';
+import 'package:duka/features/splash_feature/view_model/opening_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:duka/core/utilities/size_manager.dart';
 

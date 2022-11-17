@@ -1,7 +1,7 @@
 import 'package:duka/core/utilities/color_asset.dart';
 import 'package:duka/core/utilities/constants.dart';
 import 'package:duka/core/utilities/size_manager.dart';
-import 'package:duka/features/dashboard_view_model/wallet_model.dart';
+import 'package:duka/core/models/wallet_model.dart';
 import 'package:flutter/material.dart';
 import 'package:jiffy/jiffy.dart';
 

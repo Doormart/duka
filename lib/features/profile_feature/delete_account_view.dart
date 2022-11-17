@@ -1,6 +1,6 @@
 import 'package:duka/core/utilities/color_asset.dart';
 import 'package:duka/core/utilities/size_manager.dart';
-import 'package:duka/features/widgets/primary_button.dart';
+import 'package:duka/core/shareable_widgets/primary_button.dart';
 import 'package:flutter/material.dart';
 
 class DeleteAccountView extends StatefulWidget {

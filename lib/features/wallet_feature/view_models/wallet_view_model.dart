@@ -1,6 +1,6 @@
 import 'dart:collection';
 import 'package:duka/core/utilities/constants.dart';
-import 'package:duka/features/dashboard_view_model/wallet_model.dart';
+import 'package:duka/core/models/wallet_model.dart';
 import 'package:stacked/stacked.dart';
 
 class WalletViewModel extends BaseViewModel {

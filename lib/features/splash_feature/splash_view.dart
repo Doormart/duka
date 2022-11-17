@@ -1,5 +1,5 @@
 import 'package:duka/core/utilities/color_asset.dart';
-import 'package:duka/features/widgets/expanding_circle.dart';
+import 'package:duka/features/splash_feature/widgets/expanding_circle.dart';
 import 'package:flutter/material.dart';
 import 'package:duka/features/splash_feature/opening_view.dart';
 

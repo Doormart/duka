@@ -1,7 +1,7 @@
 import 'package:duka/core/utilities/color_asset.dart';
 import 'package:duka/core/utilities/size_manager.dart';
-import 'package:duka/features/dashboard_view_model/wallet_view_model.dart';
-import 'package:duka/features/widgets/wallet_history.dart';
+import 'package:duka/features/wallet_feature/view_models/wallet_view_model.dart';
+import 'package:duka/features/wallet_feature/widgets/wallet_history.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
@@ -76,7 +76,7 @@ class _WalletViewState extends State<WalletView> {
                             TextSpan(
                               text: model.walletBalance,
                             ),
-                          ]),
+                          ],),
                     ),
                   ],
                 ),

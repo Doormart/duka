@@ -1,10 +1,10 @@
 import 'package:duka/core/utilities/color_asset.dart';
 import 'package:duka/core/utilities/size_manager.dart';
-import 'package:duka/features/dashboard_feature/deliveries_view.dart';
-import 'package:duka/features/dashboard_feature/home_view.dart';
-import 'package:duka/features/dashboard_feature/profile_view.dart';
-import 'package:duka/features/dashboard_feature/wallet_view.dart';
-import 'package:duka/features/dashboard_view_model/landing_view_model.dart';
+import 'package:duka/features/deliveries_feature/deliveries_view.dart';
+import 'package:duka/features/home_feature/home_view.dart';
+import 'package:duka/features/landing_feature/view_models/landing_view_model.dart';
+import 'package:duka/features/profile_feature/profile_view.dart';
+import 'package:duka/features/wallet_feature/wallet_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:stacked/stacked.dart';

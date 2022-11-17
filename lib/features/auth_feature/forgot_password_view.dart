@@ -1,8 +1,8 @@
 import 'package:duka/core/utilities/color_asset.dart';
 import 'package:duka/core/utilities/constants.dart';
 import 'package:duka/core/utilities/size_manager.dart';
-import 'package:duka/features/auth_feature/forgot_password_view_model.dart';
-import 'package:duka/features/widgets/primary_button.dart';
+import 'package:duka/features/auth_feature/view_models/forgot_password_view_model.dart';
+import 'package:duka/core/shareable_widgets/primary_button.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:stacked/stacked.dart';

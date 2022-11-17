@@ -2,8 +2,8 @@ import 'package:dotted_line/dotted_line.dart';
 import 'package:duka/core/models/orders_models.dart';
 import 'package:duka/core/utilities/color_asset.dart';
 import 'package:duka/core/utilities/size_manager.dart';
-import 'package:duka/features/dashboard_view_model/delivery_view_model.dart';
-import 'package:duka/features/widgets/primary_button.dart';
+import 'package:duka/features/deliveries_feature/view_models/delivery_view_model.dart';
+import 'package:duka/core/shareable_widgets/primary_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:jiffy/jiffy.dart';
@@ -41,11 +41,6 @@ class _DeliveryDetailsViewState extends State<DeliveryDetailsView> {
     ));
     result = response;
     _model = widget.model;
-    // if (widget.delivery.toLowerCase() == 'completed') {
-    //   date = Jiffy(DateTime.parse(_model.date!));
-    //   completedTime = date.format('hh:mm a');
-    //   pastTime = date.subtract(minutes: _model.minutes).format('hh:mm a');
-    // }
   }
 
   @override

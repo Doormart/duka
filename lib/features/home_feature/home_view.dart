@@ -1,10 +1,9 @@
 import 'package:duka/core/utilities/color_asset.dart';
 import 'package:duka/core/utilities/size_manager.dart';
-import 'package:duka/features/dashboard_view_model/home_view_model.dart';
-import 'package:duka/features/widgets/home_card.dart';
-import 'package:duka/features/widgets/recent_delivery_card.dart';
+import 'package:duka/features/home_feature/view_models/home_view_model.dart';
+import 'package:duka/features/home_feature/widgets/home_card.dart';
+import 'package:duka/features/home_feature/widgets/recent_delivery_card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_switch/flutter_switch.dart';
 import 'package:jiffy/jiffy.dart';
 import 'package:stacked/stacked.dart';
 
@@ -111,23 +110,6 @@ class _HomeViewState extends State<HomeView> {
                           ),
                         ),
                       ),
-                      // FlutterSwitch(
-                      //   width: SizeMg.width(96),
-                      //   height: SizeMg.height(36),
-                      //   toggleSize: 33,
-                      //   showOnOff: true,
-                      //   value: model.online,
-                      //   onToggle: model.toggleOnline,
-                      //   activeToggleColor: Colors.white,
-                      //   inactiveToggleColor: Palette.darkGrey,
-                      //   activeColor: Palette.primaryColor,
-                      //   inactiveColor: Colors.white,
-                      //   activeText: "I'm online",
-                      //   activeTextColor: Colors.white,
-                      //   inactiveText: "I'm offline",
-                      //   inactiveTextColor: Palette.inactiveGrey,
-                      //   valueFontSize: SizeMg.text(12),
-                      // ),
                       Switch(
                         value: model.online,
                         onChanged: model.toggleOnline,

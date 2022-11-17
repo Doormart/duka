@@ -5,11 +5,11 @@ import 'package:duka/features/auth_feature/enter_otp_view.dart';
 import 'package:duka/features/auth_feature/forgot_password_view.dart';
 import 'package:duka/features/auth_feature/login_view.dart';
 import 'package:duka/features/auth_feature/new_password_view.dart';
-import 'package:duka/features/dashboard_feature/delete_account_view.dart';
-import 'package:duka/features/dashboard_feature/delivery_details_view.dart';
+import 'package:duka/features/profile_feature/delete_account_view.dart';
+import 'package:duka/features/deliveries_feature/delivery_details_view.dart';
 import 'package:duka/features/onboarding_feature/onboarding_view.dart';
 import 'package:duka/features/splash_feature/splash_view.dart';
-import 'package:duka/features/dashboard_feature/landing_view.dart';
+import 'package:duka/features/landing_feature/landing_view.dart';
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
 

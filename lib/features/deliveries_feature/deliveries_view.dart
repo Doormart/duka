@@ -1,7 +1,7 @@
 import 'package:duka/core/utilities/color_asset.dart';
 import 'package:duka/core/utilities/size_manager.dart';
-import 'package:duka/features/dashboard_view_model/delivery_view_model.dart';
-import 'package:duka/features/widgets/delivery_container.dart';
+import 'package:duka/features/deliveries_feature/view_models/delivery_view_model.dart';
+import 'package:duka/features/deliveries_feature/widgets/delivery_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:stacked/stacked.dart';
@@ -53,7 +53,7 @@ class _DeliveriesViewState extends State<DeliveriesView>
           ),
           indicator: BoxDecoration(
               color: Palette.primaryColor,
-              borderRadius: BorderRadius.circular(SizeMg.radius(7))),
+              borderRadius: BorderRadius.circular(SizeMg.radius(7),),),
           tabs: const [
             Tab(
               text: 'Requests',

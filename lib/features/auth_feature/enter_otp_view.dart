@@ -1,10 +1,10 @@
 import 'package:duka/core/utilities/otp_formatter.dart';
-import 'package:duka/features/auth_feature/enter_otp_view_model.dart';
+import 'package:duka/features/auth_feature/view_models/enter_otp_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:duka/core/utilities/color_asset.dart';
 import 'package:duka/core/utilities/size_manager.dart';
 import 'package:flutter/services.dart';
-import 'package:duka/features/widgets/primary_button.dart';
+import 'package:duka/core/shareable_widgets/primary_button.dart';
 import 'package:duka/core/utilities/constants.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:stacked/stacked.dart';
@@ -137,7 +137,7 @@ class _EnterOtpViewState extends State<EnterOtpView> {
                         inputFormatters: [
                           FilteringTextInputFormatter.digitsOnly,
                           LengthLimitingTextInputFormatter(4),
-                          //OtpFormatter()
+                          OtpFormatter()
                         ],
                         decoration: kFormTextDecoration.copyWith(
                           hintText: 'e.g - 1908201',
